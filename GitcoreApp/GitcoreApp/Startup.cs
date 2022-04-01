@@ -51,7 +51,7 @@ namespace GitcoreApp
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
-
+            app.UseCors();
             app.UseMvc();
         }
     }
