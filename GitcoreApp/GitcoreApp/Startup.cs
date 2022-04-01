@@ -47,7 +47,7 @@ namespace GitcoreApp
                 app.UseExceptionHandler("/Error");
                 app.UseHsts();
             }
-
+            app.UseCookiePolicy();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
